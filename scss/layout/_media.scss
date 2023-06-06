@@ -1,0 +1,79 @@
+@media only screen and (max-width: 992px){
+    .boton button{
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+    .contenedor-lista {
+        display: flex;
+        justify-content: left;
+        background-color: #1c1c1c;
+    }
+    .nav-lista {
+        flex-wrap: wrap;
+        display: flex;
+        list-style-type: none;
+        gap: 22px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 10px;
+    }
+
+    .nav-lista a {
+        text-decoration: none;
+        font-size: 13px;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .img-logo img {
+        width: 140px;
+        height: auto;
+        padding-bottom: 36px;
+    }
+    .boton button{
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+    .navbar a {
+        color: black;
+        text-decoration: none;
+        font-size: 9px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .nav-lista {
+        flex-wrap: wrap;
+        display: flex;
+        list-style-type: none;
+        gap: 22px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 10px;
+    }
+
+    .nav-lista a {
+        text-decoration: none;
+        font-size: 13px;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .nav-lista a:hover {
+        color: #898585;
+        transition: .10;
+    }
+
+    .contenedor-lista {
+        display: flex;
+        justify-content: left;
+        background-color: #1c1c1c;
+    }
+
+}
+    @media only screen and (min-width: 768px){
+
+    .container-cuotas {
+        width: 400px;
+    }
+}

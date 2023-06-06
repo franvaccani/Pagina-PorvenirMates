@@ -1,0 +1,493 @@
+#como-comprar {
+  color: #7a7878;
+  border-bottom: 1px solid #c0c0c0;
+  padding-bottom: 5px;
+}
+
+.p-contenedor-comoComprar {
+  text-align: left;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 145px;
+  margin-top: 40px;
+  line-height: 40px;
+}
+
+.p-contenedor-comoComprar p {
+  text-align: left;
+  padding-left: 22px;
+}
+
+.p-contenedor-comoComprar h1 {
+  text-align: center;
+}
+
+/* -----------------CONTACTO---------------- */
+.formulario-contacto {
+  font-family: "Montserrat", sans-serif;
+}
+
+#parrafo-contacto {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+#mensaje {
+  height: 70px;
+  margin: 0;
+}
+
+.logos-redes {
+  padding-left: 10px;
+  justify-content: end;
+}
+
+.logos-redes img {
+  width: 40px;
+}
+
+#redes {
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
+  border-bottom: 0.5px solid white;
+  width: 142px;
+  margin-left: auto;
+}
+
+.redesFooter {
+  margin-left: 496px;
+  margin-bottom: 40px;
+}
+
+#contacto {
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
+  border-bottom: 0.5px solid white;
+  width: 98px;
+  margin-left: 496px;
+  padding: 0px;
+}
+
+.ContactoFooter {
+  margin-left: 496px;
+  margin-bottom: 40px;
+  display: flex;
+}
+
+.ContactoFooter a {
+  width: 250px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  gap: 7px;
+}
+
+.medioPago {
+  color: white;
+  font-size: 16px;
+  margin: 0px;
+  margin-top: 15px;
+}
+
+.medioPago img {
+  width: 40px;
+}
+
+footer {
+  background-color: #1c1c1c;
+  padding: 0px;
+  margin: 0px;
+}
+
+.p-cuotas {
+  background-color: #1c1c1c;
+  color: white;
+  margin: 0;
+  text-align: center;
+  font-size: 13px;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  margin-bottom: 8px;
+}
+
+.navbar {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end !important;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 15px;
+  gap: 20px;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  font-size: 13px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contenedor-lista {
+  display: flex;
+  justify-content: center;
+  background-color: #1c1c1c;
+}
+
+.nav-lista {
+  flex-wrap: wrap;
+  display: flex;
+  list-style-type: none;
+  gap: 22px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.nav-lista a {
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-lista a:hover {
+  color: #898585;
+  border-bottom: 0.1px solid #898585;
+  padding-bottom: 5px;
+  transition: 0.1;
+}
+
+.container-logo {
+  display: flex;
+  justify-content: left;
+  padding-left: 20%;
+  padding-bottom: 20px;
+}
+
+.img-logo img {
+  width: 220px;
+  height: auto;
+  padding-bottom: 36px;
+  position: relative;
+}
+
+.logoWhs img {
+  width: 50px;
+}
+
+.logoWhs {
+  margin-right: 20px;
+  position: fixed;
+  top: 88%;
+  left: 95%;
+}
+
+/*-------------IDEX--------------*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: #e2e6df !important;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.carousel-inner {
+  height: 770px;
+}
+
+.uk-grid {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 240px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.descuentos {
+  box-sizing: content-box;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.texto-descuentos {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+
+.block-purchase__item-icon {
+  margin-bottom: 4px;
+}
+
+.containerTiendaInicio {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.containerTiendaInicio img {
+  width: 290px !important;
+  height: 400px !important;
+}
+
+.h2-ig {
+  padding-top: 140px;
+  font-size: 26px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.line {
+  padding-bottom: 55px;
+}
+
+.line2 {
+  padding-bottom: 90px;
+}
+
+.container-ig {
+  margin-bottom: 200px;
+  margin-right: 120px;
+  margin-left: 120px;
+}
+
+.containerPersonalizado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 400px;
+  margin-bottom: 220px;
+}
+
+.personalizado {
+  text-align: center;
+  padding-bottom: 5px;
+}
+.personalizado h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  margin-right: 150px;
+}
+.personalizado ul {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  margin-right: 190px;
+}
+.personalizado button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  margin-right: 150px !important;
+}
+.personalizado img {
+  width: 500px;
+  height: 600px;
+  margin-left: 150px;
+  border-radius: 4px;
+}
+
+@media only screen and (max-width: 992px) {
+  .boton button {
+    margin-left: 10px;
+    margin-bottom: 5px;
+  }
+  .contenedor-lista {
+    display: flex;
+    justify-content: left;
+    background-color: #1c1c1c;
+  }
+  .nav-lista {
+    flex-wrap: wrap;
+    display: flex;
+    list-style-type: none;
+    gap: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+  }
+  .nav-lista a {
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .img-logo img {
+    width: 140px;
+    height: auto;
+    padding-bottom: 36px;
+  }
+  .boton button {
+    margin-left: 10px;
+    margin-bottom: 5px;
+  }
+  .navbar a {
+    color: black;
+    text-decoration: none;
+    font-size: 9px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .nav-lista {
+    flex-wrap: wrap;
+    display: flex;
+    list-style-type: none;
+    gap: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+  }
+  .nav-lista a {
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+  }
+  .nav-lista a:hover {
+    color: #898585;
+    transition: 0.1;
+  }
+  .contenedor-lista {
+    display: flex;
+    justify-content: left;
+    background-color: #1c1c1c;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .container-cuotas {
+    width: 400px;
+  }
+}
+.p-contenedor {
+  margin-top: 60px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.categoria {
+  display: inline;
+}
+
+.categoria ul {
+  list-style-type: none;
+  padding-left: 70px;
+}
+
+.categoria ul a {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  line-height: 40px;
+  color: #665e61;
+}
+
+.categoria h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+  text-align: left;
+  padding-left: 70px;
+  margin: 0px;
+}
+
+.categoria h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+  text-align: left;
+  padding-left: 70px;
+  padding-top: 70px;
+}
+
+.tienda-conteiner a:hover {
+  color: #665e61;
+  border-bottom: 1px solid #c0c0c0;
+  transition: 0.1;
+}
+
+.containerTienda {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  margin: 0px;
+  margin-bottom: 50px;
+  padding-right: 40px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.producto {
+  text-align: center;
+  color: #808080;
+  padding-bottom: 5px;
+}
+
+.producto img {
+  text-align: center;
+  width: 240px;
+  height: 312px;
+  border-radius: 3px;
+}
+
+.producto img:hover {
+  transform: scale(1.06);
+}
+
+.producto p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 1px;
+  margin-top: 16px;
+}
+
+.producto h6 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+.productosGeneral {
+  display: flex;
+  justify-content: left;
+  padding-bottom: 30px;
+  padding-top: 60px;
+  padding-left: 190px;
+}
+
+.productosGeneral ul {
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  gap: 5px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.productosGeneral a {
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}/*# sourceMappingURL=styles.css.map */
