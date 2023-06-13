@@ -1,12 +1,16 @@
 
 .logos-redes {
-    padding-left: 10px;
-    justify-content: end;
+    display: flex !important;  
+    align-items: center !important;
+    flex-direction: column;
+    margin-top: 70px !important;
 }
 
 .logos-redes img {
     width: 40px;
+    
 }
+
 
 #redes {
     color: white;
@@ -14,12 +18,10 @@
     margin-top: 20px;
     border-bottom: 0.5px solid white;
     width: 142px;
-    margin-left: auto;
 }
 
 .redesFooter {
-    margin-left: 496px;
-    margin-bottom: 40px;
+   margin-top: 15px ;
 }
 
 #contacto {
@@ -28,30 +30,38 @@
     margin-top: 20px;
     border-bottom: 0.5px solid white;
     width: 98px;
-    margin-left: 496px;
     padding: 0px;
 }
 
 .ContactoFooter {
-    margin-left: 496px;
     margin-bottom: 40px;
-    display: flex;
 }
 .ContactoFooter a{
     width: 250px;
     height: auto;
-    display: flex;
-    align-items: center;
     text-decoration: none;
     color: white;
     gap: 7px;    
 }
 
 .medioPago {
+    font-size: 1.2rem !important;
     color: white;
     font-size: 16px;
     margin: 0px;
     margin-top: 15px;
+
+}
+.medioPagoContacto{
+    color: white;
+    font-size: 16px;
+    margin: 0px;
+    margin-top: 30px;
+
+}
+.medioPrueba{
+    position: relative;
+    right: 50px;
 }
 .medioPago img{
     width: 40px;

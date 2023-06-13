@@ -77,3 +77,16 @@
         width: 400px;
     }
 }
+@media only screen and (max-width: 1536px){
+
+    
+    .producto img {
+        text-align: center;
+        width: 210px;
+        height: 290px;
+        border-radius: 3px;
+    }
+    .producto img:hover {
+        transform:scale(1.06);
+    }
+}

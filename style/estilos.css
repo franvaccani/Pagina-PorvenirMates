@@ -33,8 +33,10 @@
   margin: 0; }
 
 .logos-redes {
-  padding-left: 10px;
-  justify-content: end; }
+  display: flex !important;
+  align-items: center !important;
+  flex-direction: column;
+  margin-top: 70px !important; }
 
 .logos-redes img {
   width: 40px; }
@@ -44,12 +46,10 @@
   font-size: 18px;
   margin-top: 20px;
   border-bottom: 0.5px solid white;
-  width: 142px;
-  margin-left: auto; }
+  width: 142px; }
 
 .redesFooter {
-  margin-left: 496px;
-  margin-bottom: 40px; }
+  margin-top: 15px; }
 
 #contacto {
   color: white;
@@ -57,28 +57,34 @@
   margin-top: 20px;
   border-bottom: 0.5px solid white;
   width: 98px;
-  margin-left: 496px;
   padding: 0px; }
 
 .ContactoFooter {
-  margin-left: 496px;
-  margin-bottom: 40px;
-  display: flex; }
+  margin-bottom: 40px; }
 
 .ContactoFooter a {
   width: 250px;
   height: auto;
-  display: flex;
-  align-items: center;
   text-decoration: none;
   color: white;
   gap: 7px; }
 
 .medioPago {
+  font-size: 1.2rem !important;
   color: white;
   font-size: 16px;
   margin: 0px;
   margin-top: 15px; }
+
+.medioPagoContacto {
+  color: white;
+  font-size: 16px;
+  margin: 0px;
+  margin-top: 30px; }
+
+.medioPrueba {
+  position: relative;
+  right: 50px; }
 
 .medioPago img {
   width: 40px; }
@@ -167,13 +173,14 @@ footer {
   -webkit-font-smoothing: antialiased; }
 
 body {
-  background-color: #e2e6df !important; }
+  background-color: #e2e6df !important;
+  overflow-x: hidden; }
 
 .carousel-inner img {
   width: 100%;
   height: 100%;
-  background-position: center;
-  background-size: cover; }
+  background-size: cover;
+  background-position: 50% 100% !important; }
 
 .carousel-inner {
   height: 770px; }
@@ -211,16 +218,58 @@ body {
   width: 290px !important;
   height: 400px !important; }
 
-.h2-ig {
+.h2-pro {
   padding-top: 140px;
   font-size: 26px;
   font-family: 'Montserrat', sans-serif; }
+
+.border-ig h2 {
+  display: block;
+  position: relative;
+  float: left;
+  font-size: 2rem; }
+
+h2 span {
+  position: absolute;
+  background: #e2e6df;
+  right: 0;
+  width: 0;
+  border-left: 1px solid #000000;
+  animation: escribir 2.4s steps(300) infinite alternate; }
+
+@keyframes escribir {
+  from {
+    width: 60%; }
+  to {
+    width: 40%; } }
+
+.border-ig h3 {
+  display: block;
+  position: relative;
+  float: left;
+  font-size: 2rem !important;
+  padding-top: 140px;
+  font-family: 'Montserrat', sans-serif; }
+
+h3 span {
+  position: absolute;
+  background: #e2e6df;
+  right: 0;
+  width: 0;
+  border-left: 1px solid #000000;
+  animation: escribir 2.4s steps(300) infinite alternate; }
+
+@keyframes escribir {
+  from {
+    width: 62%; }
+  to {
+    width: 37%; } }
 
 .line {
   padding-bottom: 55px; }
 
 .line2 {
-  padding-bottom: 90px; }
+  padding-bottom: 100px; }
 
 .container-ig {
   margin-bottom: 200px;
@@ -316,6 +365,15 @@ body {
 @media only screen and (min-width: 768px) {
   .container-cuotas {
     width: 400px; } }
+
+@media only screen and (max-width: 1536px) {
+  .producto img {
+    text-align: center;
+    width: 210px;
+    height: 290px;
+    border-radius: 3px; }
+  .producto img:hover {
+    transform: scale(1.06); } }
 
 .p-contenedor {
   margin-top: 60px;
