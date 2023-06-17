@@ -1,31 +1,29 @@
-@media only screen and (max-width: 992px){
+/*-------------MEDIA--------------*/
+@media only screen and (max-width:992px) {
     .boton button{
         margin-left: 10px;
         margin-bottom: 5px;
     }
     .contenedor-lista {
-        display: flex;
+        display:flex;
         justify-content: left;
-        background-color: #1c1c1c;
+        background-color: $colorSecundario;
     }
     .nav-lista {
         flex-wrap: wrap;
-        display: flex;
+        display:flex;
         list-style-type: none;
         gap: 22px;
         padding-top: 10px;
         padding-bottom: 10px;
         margin-left: 10px;
+        a {
+            text-decoration: none;
+            font-size: 13px;
+            color: white;
+            font-family: $fuente;
+        }
     }
-
-    .nav-lista a {
-        text-decoration: none;
-        font-size: 13px;
-        color: white;
-        font-family: 'Montserrat', sans-serif;
-    }
-}
-@media only screen and (max-width: 768px) {
     .img-logo img {
         width: 140px;
         height: auto;
@@ -35,58 +33,152 @@
         margin-left: 10px;
         margin-bottom: 5px;
     }
+
+    .navResponsive{
+        background-color: $colorFondo !important;
+    }
+    .navRespon{
+        background-color: $colorFondo !important;
+    }
     .navbar a {
         color: black;
-        text-decoration: none;
         font-size: 9px;
-        font-family: 'Montserrat', sans-serif;
+        font-family: $fuente;
     }
 
-    .nav-lista {
-        flex-wrap: wrap;
-        display: flex;
-        list-style-type: none;
-        gap: 22px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        margin-left: 10px;
+   .nav-item a{
+        color: white !important;
     }
-
-    .nav-lista a {
-        text-decoration: none;
-        font-size: 13px;
-        color: white;
-        font-family: 'Montserrat', sans-serif;
-    }
-
     .nav-lista a:hover {
         color: #898585;
         transition: .10;
     }
-
-    .contenedor-lista {
-        display: flex;
-        justify-content: left;
-        background-color: #1c1c1c;
-    }
-
-}
-    @media only screen and (min-width: 768px){
-
-    .container-cuotas {
+    .personalizado1 img{
         width: 400px;
+        border-radius: 4px;
+        margin: 0px;
+    }
+    .productosDestacados{
+        display: none !important;
+    }
+
+    .igSpan{
+        display: none !important;
+    }
+    .img-logo-footer{
+        padding: 0px !important;
+        padding-top: 20px !important;
+        padding-bottom: 50px !important;
+    }
+    .logos-redes{
+        position: relative;
+        left: 30px;
+    }
+
+    .logos-redes{
+        position: relative;
+        
+    .containerPagos{
+        padding-bottom: 50px !important;
+    }
+
+    .container-cuota{
+        width: 0px !important;
     }
 }
-@media only screen and (max-width: 1536px){
-
-    
-    .producto img {
-        text-align: center;
-        width: 210px;
-        height: 290px;
-        border-radius: 3px;
+@media only screen and (min-width: 993px) and (max-width:1280px){
+    .instagramFeed{
+    width: 100% !important;
     }
-    .producto img:hover {
-        transform:scale(1.06);
+
+    span{
+        display: none !important;
+    }
+}
+@media only screen and (max-width: 1650px){
+    .containerTiendaInicio{
+        padding-top: 20px;
+        gap: 90px;
+        img {
+            width: 240px;
+            height: 340px;
+        }
+        p {
+            padding-bottom: 20px;
+        }
+    }
+}
+@media only screen and  (min-width:768px) and (max-width:1200px){
+    .descuentos{
+        width: auto;
+        height: 499px;
+}
+.instagramFeed {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    margin: 0px !important;
+}
+}
+@media only screen and  (min-width:300px) and (max-width:997px){
+    .containerPersonalizado {
+        h1 {
+            padding-top: 50px !important;
+            text-align: center;
+            margin: auto !important;
+        }
+        ul li{
+            position: relative;
+            left: 68px !important;
+            font-size: 20px !important;
+            text-align: center;
+            margin: auto !important;
+        }
+        button{
+            margin-right: auto !important;
+            margin-top: 30px !important; 
+        }
+    }
+    .logoWhs{
+        display: none !important;
+    }
+    .instagramFeed {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: center !important;
+        margin: 0px !important;
+    }
+    .logos-redes-f{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+@media only screen and (min-width:1280px) and (max-width:1920px){
+    .personalizado1 img{
+        width: 500px;
+        border-radius: 4px;
+        margin: 0px;
+    }
+}
+
+
+@media only screen and (min-width:1920px){
+        .producto img {
+            text-align: center;
+            width: 210px;
+            height: 290px;
+            border-radius: 3px;
+        }
+        .producto img:hover {
+            transform:scale(1.06);
+        }
+
+        
     }
 }

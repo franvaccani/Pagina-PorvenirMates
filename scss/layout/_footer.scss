@@ -1,38 +1,17 @@
 
+
+/*-------------FOOTER--------------*/
 .logos-redes {
-    display: flex !important;  
-    align-items: center !important;
+    @include flex(none,none,center !important);
     flex-direction: column;
     margin-top: 70px !important;
+    img {
+        width: 60px;
+    }
 }
-
-.logos-redes img {
-    width: 40px;
-    
-}
-
-
-#redes {
-    color: white;
-    font-size: 18px;
-    margin-top: 20px;
-    border-bottom: 0.5px solid white;
-    width: 142px;
-}
-
 .redesFooter {
-   margin-top: 15px ;
+    margin-top: 15px;
 }
-
-#contacto {
-    color: white;
-    font-size: 18px;
-    margin-top: 20px;
-    border-bottom: 0.5px solid white;
-    width: 98px;
-    padding: 0px;
-}
-
 .ContactoFooter {
     margin-bottom: 40px;
 }
@@ -43,31 +22,28 @@
     color: white;
     gap: 7px;    
 }
-
 .medioPago {
     font-size: 1.2rem !important;
     color: white;
     font-size: 16px;
     margin: 0px;
     margin-top: 15px;
-
+    img{
+        width: 40px;
+    }
 }
 .medioPagoContacto{
     color: white;
-    font-size: 16px;
+    font-size: 18px !important;
     margin: 0px;
     margin-top: 30px;
-
 }
 .medioPrueba{
     position: relative;
     right: 50px;
 }
-.medioPago img{
-    width: 40px;
-}
 footer {
-    background-color: #1c1c1c;
+    background-color: $colorSecundario;
     padding: 0px;
     margin: 0px;
 }

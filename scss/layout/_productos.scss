@@ -1,109 +1,94 @@
 
+
+/*-------------PRODUCTOS--------------*/
 .categoria {
     display: inline;
+    ul {
+        list-style-type: none;
+        padding-left: 70px;
+        a {
+            list-style-type: none;
+            text-decoration: none;
+            font-family: $fuente;
+            font-size: 15px;
+            line-height: 40px;
+            color: #665e61;
+        }
+    }
+    h1 {
+        font-family: $fuente;
+        font-size: 19px;
+        text-align: left;
+        padding-left: 70px;
+        margin: 0px;
+    }
+    h2 {
+        font-family: $fuente;
+        font-size: 19px;
+        text-align: left;
+        padding-left: 70px;
+        padding-top: 70px;
+    }
 }
-
-.categoria ul {
-    list-style-type: none;
-    padding-left: 70px;
-
-}
-
-.categoria ul a {
-    list-style-type: none;
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-    line-height: 40px;
-    color: #665e61;
-
-
-}
-
-.categoria h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 19px;
-    text-align: left;
-    padding-left: 70px;
-    margin: 0px;
-
-}
-
-.categoria h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 19px;
-    text-align: left;
-    padding-left: 70px;
-    padding-top: 70px;
-
-}
-
 .tienda-conteiner a:hover {
     color: #665e61;
     border-bottom: 1px solid #c0c0c0;
     transition: .10;
 }
-
 .containerTienda {
-    display: flex;
-    justify-content: center;
-    text-align: left;
+    @include flex(center,none,left);
     margin: 0px;
     margin-bottom: 50px;
     padding-right: 40px;
     gap: 20px;
     flex-wrap: wrap;
 }
-
 .producto {
     text-align: center;
     color: #808080;
     padding-bottom: 5px;
-}
-
-.producto img {
-    text-align: center;
-    width: 240px;
-    height: 312px;
-    border-radius: 3px;
+    img {
+        text-align: center;
+        width: 240px;
+        height: 312px;
+        border-radius: 3px;
+    }
+    p {
+        font-family: $fuente;
+        font-size: 16px;
+        color: #000000;
+        margin-bottom: 1px;
+        margin-top: 16px;
+    }
+    h6 {
+        font-family: $fuente;
+        font-size: 16px;
+    }
 }
 .producto img:hover {
     transform:scale(1.06);
 }
-.producto p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    color: #000000;
-    margin-bottom: 1px;
-    margin-top: 16px;
-
-}
-.producto h6 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-}
 .productosGeneral {
-    display: flex;
-    justify-content: left;
+    @include flex(left,none,none);
     padding-bottom: 30px;
     padding-top: 60px;
     padding-left: 190px;
-}
-.productosGeneral ul {
-    display: flex;
-    text-decoration: none;
-    list-style-type: none;
-    color: black;
-    font-size: 18px;
-    font-family: 'Montserrat', sans-serif;
-    gap: 5px;
-    margin-bottom: 0px;
-    padding: 0px;
-}
-.productosGeneral a {
-    text-decoration: none;
-    list-style-type: none;
-    color: black;
-    font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
+    ul {
+        display:flex;
+        text-decoration: none;
+        list-style-type: none;
+        color: black;
+        font-size: 18px;
+        font-family: $fuente;
+        gap: 5px;
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+    a {
+        text-decoration: none;
+        list-style-type: none;
+        color: black;
+        font-size: 16px;
+        font-family: $fuente;
+    }
 }
