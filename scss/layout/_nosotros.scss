@@ -3,6 +3,29 @@
 /*-------------NOSOTROS--------------*/
 .p-contenedor {
     margin-top: 60px;
+    margin-bottom: 80px;
     text-align: center;
     font-family: $fuente;
+
+}
+.imgParallaxx{
+    background: url("/assets/paralax-nosotros.jpg");
+    background-attachment: fixed;
+    background-position:right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 630px;
+    width: 100% !important;
+    margin-top: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 70px;
+    filter:contrast(50%);
+    filter:brightness(0.8);
+    h1{
+        font-family: $fuente;
+        color: #ffff;
+        padding: 60px;
+    }
+    
 }

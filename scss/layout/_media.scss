@@ -1,5 +1,6 @@
+
 /*-------------MEDIA--------------*/
-@media only screen and (max-width:992px) {
+@media only screen and (max-width:992px){
     .boton button{
         margin-left: 10px;
         margin-bottom: 5px;
@@ -33,7 +34,6 @@
         margin-left: 10px;
         margin-bottom: 5px;
     }
-
     .navResponsive{
         background-color: $colorFondo !important;
     }
@@ -45,8 +45,7 @@
         font-size: 9px;
         font-family: $fuente;
     }
-
-   .nav-item a{
+    .nav-item a{
         color: white !important;
     }
     .nav-lista a:hover {
@@ -84,7 +83,8 @@
 
     .container-cuota{
         width: 0px !important;
-    }
+    } 
+}
 }
 @media only screen and (min-width: 993px) and (max-width:1280px){
     .instagramFeed{
@@ -95,18 +95,12 @@
         display: none !important;
     }
 }
-@media only screen and (max-width: 1650px){
-    .containerTiendaInicio{
-        padding-top: 20px;
-        gap: 90px;
-        img {
-            width: 240px;
-            height: 340px;
-        }
-        p {
-            padding-bottom: 20px;
-        }
+@media only screen and (max-width:1600px){
+    .containerTiendaInicio img{
+        width: 200px !important;
+        height: 300px !important;
     }
+    
 }
 @media only screen and  (min-width:768px) and (max-width:1200px){
     .descuentos{
@@ -139,8 +133,11 @@
             margin-top: 30px !important; 
         }
     }
+    
+    
+
     .logoWhs{
-        display: none !important;
+    display: none !important;
     }
     .instagramFeed {
         display: flex !important;
@@ -153,32 +150,23 @@
         justify-content: center;
     }
 }
-
-
-
-
-
-
-@media only screen and (min-width:1280px) and (max-width:1920px){
-    .personalizado1 img{
-        width: 500px;
-        border-radius: 4px;
-        margin: 0px;
+@media only screen and  (min-width:1400px) and (max-width:1920px){
+    .containerTiendaInicio img{
+        width: 290px;
+        height: 380px;
     }
+@media only screen and  (min-width:1280px) and (max-width:1500px){
+    h2 span {
+        position:absolute;
+        background: $colorFondo;
+        right:0;
+        width:0;
+        border-left: 1px solid #000000;
+        animation: escribir 2.2s steps(1000) infinite alternate;
+    }
+    @keyframes escribir {
+        from { width: 70% }
+        to { width:30% }
+    } 
 }
-
-
-@media only screen and (min-width:1920px){
-        .producto img {
-            text-align: center;
-            width: 210px;
-            height: 290px;
-            border-radius: 3px;
-        }
-        .producto img:hover {
-            transform:scale(1.06);
-        }
-
-        
-    }
 }

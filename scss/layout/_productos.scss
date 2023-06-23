@@ -39,19 +39,27 @@
     @include flex(center,none,left);
     margin: 0px;
     margin-bottom: 50px;
-    padding-right: 40px;
-    gap: 20px;
+    padding-top: 40px;
+    padding-right: 40px;;
     flex-wrap: wrap;
+}
+.boton2{
+    font-family: $fuente !important;
+    margin: 0px;
+    padding: 0px;
+    background-color: aqua;
 }
 .producto {
     text-align: center;
     color: #808080;
     padding-bottom: 5px;
+    width: auto;
+    height: auto;
     img {
         text-align: center;
-        width: 240px;
-        height: 312px;
-        border-radius: 3px;
+        width: 235px;
+        height: 335px;
+        border-radius: 1.5px;
     }
     p {
         font-family: $fuente;
@@ -64,14 +72,16 @@
         font-family: $fuente;
         font-size: 16px;
     }
+    button{
+        margin-right: 0px !important;
+    }
 }
 .producto img:hover {
     transform:scale(1.06);
 }
 .productosGeneral {
     @include flex(left,none,none);
-    padding-bottom: 30px;
-    padding-top: 60px;
+    padding-top: 38px;
     padding-left: 190px;
     ul {
         display:flex;

@@ -4,6 +4,135 @@
   -webkit-font-smoothing: antialiased; }
 
 /*-------------VARIABLES--------------*/
+/*-------------MEDIA--------------*/
+@media only screen and (max-width: 992px) {
+  .boton button {
+    margin-left: 10px;
+    margin-bottom: 5px; }
+  .contenedor-lista {
+    display: flex;
+    justify-content: left;
+    background-color: #1c1c1c; }
+  .nav-lista {
+    flex-wrap: wrap;
+    display: flex;
+    list-style-type: none;
+    gap: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px; }
+    .nav-lista a {
+      text-decoration: none;
+      font-size: 13px;
+      color: white;
+      font-family: "Montserrat", sans-serif; }
+  .img-logo img {
+    width: 140px;
+    height: auto;
+    padding-bottom: 36px; }
+  .boton button {
+    margin-left: 10px;
+    margin-bottom: 5px; }
+  .navResponsive {
+    background-color: #edefeb !important; }
+  .navRespon {
+    background-color: #edefeb !important; }
+  .navbar a {
+    color: black;
+    font-size: 9px;
+    font-family: "Montserrat", sans-serif; }
+  .nav-item a {
+    color: white !important; }
+  .nav-lista a:hover {
+    color: #898585;
+    transition: .10; }
+  .personalizado1 img {
+    width: 400px;
+    border-radius: 4px;
+    margin: 0px; }
+  .productosDestacados {
+    display: none !important; }
+  .igSpan {
+    display: none !important; }
+  .img-logo-footer {
+    padding: 0px !important;
+    padding-top: 20px !important;
+    padding-bottom: 50px !important; }
+  .logos-redes {
+    position: relative;
+    left: 30px; }
+  .logos-redes {
+    position: relative; }
+    .logos-redes .containerPagos {
+      padding-bottom: 50px !important; }
+    .logos-redes .container-cuota {
+      width: 0px !important; } }
+
+@media only screen and (min-width: 993px) and (max-width: 1280px) {
+  .instagramFeed {
+    width: 100% !important; }
+  span {
+    display: none !important; } }
+
+@media only screen and (max-width: 1600px) {
+  .containerTiendaInicio img {
+    width: 200px !important;
+    height: 300px !important; } }
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .descuentos {
+    width: auto;
+    height: 499px; }
+  .instagramFeed {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    margin: 0px !important; } }
+
+@media only screen and (min-width: 300px) and (max-width: 997px) {
+  .containerPersonalizado h1 {
+    padding-top: 50px !important;
+    text-align: center;
+    margin: auto !important; }
+  .containerPersonalizado ul li {
+    position: relative;
+    left: 68px !important;
+    font-size: 20px !important;
+    text-align: center;
+    margin: auto !important; }
+  .containerPersonalizado button {
+    margin-right: auto !important;
+    margin-top: 30px !important; }
+  .logoWhs {
+    display: none !important; }
+  .instagramFeed {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    margin: 0px !important; }
+  .logos-redes-f {
+    display: flex;
+    justify-content: center; } }
+
+@media only screen and (min-width: 1400px) and (max-width: 1920px) {
+  .containerTiendaInicio img {
+    width: 290px;
+    height: 380px; } }
+
+@media only screen and (min-width: 1400px) and (max-width: 1920px) and (min-width: 1280px) and (max-width: 1500px) {
+  h2 span {
+    position: absolute;
+    background: #edefeb;
+    right: 0;
+    width: 0;
+    border-left: 1px solid #000000;
+    animation: escribir 2.2s steps(1000) infinite alternate; }
+  @keyframes escribir {
+    from {
+      width: 70%; }
+    to {
+      width: 30%; } } }
+
 /*-------------COMO COMPRAR--------------*/
 #como-comprar {
   color: #7a7878;
@@ -12,18 +141,35 @@
 
 .p-contenedor-comoComprar {
   text-align: left;
-  font-size: 14px;
+  font-size: 16px;
   font-family: "Montserrat", sans-serif;
   margin-left: 145px;
+  margin-right: 90px;
   margin-top: 40px;
-  line-height: 40px; }
+  line-height: 24px; }
+  .p-contenedor-comoComprar p {
+    text-align: left;
+    font-size: 16px;
+    padding-bottom: 34px; }
 
-.p-contenedor-comoComprar p {
-  text-align: left;
-  padding-left: 22px; }
-
-.p-contenedor-comoComprar h1 {
-  text-align: center; }
+.imgParallaxxCompra {
+  background: url("/assets/paralax-compra.jpg");
+  background-attachment: fixed;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 630px;
+  width: 100% !important;
+  margin-top: 40px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 70px;
+  filter: contrast(50%);
+  filter: brightness(0.8); }
+  .imgParallaxxCompra h1 {
+    font-family: "Montserrat", sans-serif;
+    color: #fdfdfd;
+    padding: 60px; }
 
 /* -----------------CONTACTO---------------- */
 .formulario-contacto {
@@ -39,6 +185,25 @@
   height: 70px;
   margin: 0; }
 
+.imgParallaxxContacto {
+  background: url("/assets/paralax-contacto.jpg");
+  background-attachment: fixed;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 630px;
+  width: 100% !important;
+  margin-top: 40px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 70px;
+  filter: contrast(50%);
+  filter: brightness(0.8); }
+  .imgParallaxxContacto h1 {
+    font-family: "Montserrat", sans-serif;
+    color: #ffff;
+    padding: 60px; }
+
 /*-------------FOOTER--------------*/
 .logos-redes {
   display: flex;
@@ -46,46 +211,48 @@
   text-align: none;
   align-items: center !important;
   flex-direction: column;
-  margin-top: 70px !important; }
+  margin-top: 20px !important; }
   .logos-redes img {
-    width: 60px; }
+    width: 40px; }
 
 .redesFooter {
-  margin-top: 15px; }
+  margin-top: 8px; }
 
 .ContactoFooter {
-  margin-bottom: 40px; }
+  margin-bottom: 20px; }
 
 .ContactoFooter a {
   width: 250px;
   height: auto;
   text-decoration: none;
   color: white;
-  gap: 7px; }
+  gap: 6px; }
 
 .medioPago {
-  font-size: 1.2rem !important;
+  font-size: 15px;
   color: white;
-  font-size: 16px;
-  margin: 0px;
-  margin-top: 15px; }
+  margin: 0px; }
   .medioPago img {
     width: 40px; }
 
 .medioPagoContacto {
   color: white;
-  font-size: 18px !important;
+  font-size: 15px !important;
   margin: 0px;
-  margin-top: 30px; }
+  margin-top: 14px; }
 
 .medioPrueba {
   position: relative;
-  right: 50px; }
+  right: 60px; }
 
 footer {
   background-color: #1c1c1c;
   padding: 0px;
   margin: 0px; }
+
+.derechosReservados {
+  color: white;
+  padding-top: 10px; }
 
 /*-------------HEADER--------------*/
 .p-cuotas {
@@ -153,18 +320,16 @@ footer {
   padding-bottom: 36px;
   position: relative; }
 
-.logoWhs {
-  margin-right: 20px;
-  position: fixed;
-  top: 88%;
-  left: 95%; }
-  .logoWhs img {
-    width: 50px; }
-
 /*-------------IDEX--------------*/
 body {
-  background-color: #e2e6df !important;
+  background-color: #edefeb !important;
   overflow-x: hidden; }
+
+.logoWhs img {
+  width: 50px !important;
+  position: fixed;
+  top: 85% !important;
+  left: 96%; }
 
 .carousel-inner {
   height: 770px; }
@@ -188,8 +353,8 @@ body {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px; }
+  padding-left: 30px;
+  padding-right: 30px; }
 
 .texto-descuentos {
   font-family: "Montserrat", sans-serif;
@@ -204,10 +369,14 @@ body {
   text-align: center;
   align-items: center;
   padding-top: 20px;
-  gap: 50px; }
+  gap: 20px; }
   .containerTiendaInicio img {
-    width: 290px !important;
-    height: 400px !important; }
+    width: 280px !important;
+    height: 405px !important; }
+
+.h2-ig {
+  padding-bottom: 10px;
+  font-family: "Montserrat", sans-serif; }
 
 .h2-pro {
   padding-top: 140px;
@@ -222,11 +391,11 @@ body {
 
 h2 span {
   position: absolute;
-  background: #e2e6df;
+  background: #edefeb;
   right: 0;
   width: 0;
   border-left: 1px solid #000000;
-  animation: escribir 2.4s steps(300) infinite alternate; }
+  animation: escribir 2.2s steps(1000) infinite alternate; }
 
 @keyframes escribir {
   from {
@@ -239,12 +408,12 @@ h2 span {
   position: relative;
   float: left;
   font-size: 2rem !important;
-  padding-top: 140px;
+  padding-top: 1px;
   font-family: "Montserrat", sans-serif; }
 
 h3 span {
   position: absolute;
-  background: #e2e6df;
+  background: #edefeb;
   right: 0;
   width: 0;
   border-left: 1px solid #000000;
@@ -256,12 +425,6 @@ h3 span {
   to {
     width: 37%; } }
 
-.line {
-  padding-bottom: 55px; }
-
-.line2 {
-  padding-bottom: 100px; }
-
 .container-ig {
   margin-bottom: 200px;
   margin-right: 120px;
@@ -272,8 +435,9 @@ h3 span {
   justify-content: center;
   text-align: center;
   align-items: center;
-  margin-top: 400px;
-  margin-bottom: 220px; }
+  margin-top: 220px;
+  margin-bottom: 220px;
+  margin-right: 220px; }
 
 .personalizado {
   text-align: center;
@@ -281,159 +445,49 @@ h3 span {
   .personalizado h1 {
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
-    margin-right: 150px; }
+    margin-right: 100px; }
   .personalizado ul {
     text-decoration: none;
     list-style-type: none;
     font-family: "Montserrat", sans-serif;
     font-size: 15px;
-    margin-right: 190px; }
+    margin-right: 150px; }
   .personalizado button {
     font-family: "Montserrat", sans-serif;
     font-size: 15px;
-    margin-right: 150px !important; }
+    margin-right: 100px !important; }
 
 .personalizado1 img {
-  width: 500px;
+  width: 400px;
   height: 600px;
-  margin-left: 150px;
+  margin-left: 340px;
   border-radius: 4px; }
-
-/*-------------MEDIA--------------*/
-@media only screen and (max-width: 992px) {
-  .boton button {
-    margin-left: 10px;
-    margin-bottom: 5px; }
-  .contenedor-lista {
-    display: flex;
-    justify-content: left;
-    background-color: #1c1c1c; }
-  .nav-lista {
-    flex-wrap: wrap;
-    display: flex;
-    list-style-type: none;
-    gap: 22px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-left: 10px; }
-    .nav-lista a {
-      text-decoration: none;
-      font-size: 13px;
-      color: white;
-      font-family: "Montserrat", sans-serif; }
-  .img-logo img {
-    width: 140px;
-    height: auto;
-    padding-bottom: 36px; }
-  .boton button {
-    margin-left: 10px;
-    margin-bottom: 5px; }
-  .navResponsive {
-    background-color: #e2e6df !important; }
-  .navRespon {
-    background-color: #e2e6df !important; }
-  .navbar a {
-    color: black;
-    font-size: 9px;
-    font-family: "Montserrat", sans-serif; }
-  .nav-item a {
-    color: white !important; }
-  .nav-lista a:hover {
-    color: #898585;
-    transition: .10; }
-  .personalizado1 img {
-    width: 400px;
-    border-radius: 4px;
-    margin: 0px; }
-  .productosDestacados {
-    display: none !important; }
-  .igSpan {
-    display: none !important; }
-  .img-logo-footer {
-    padding: 0px !important;
-    padding-top: 20px !important;
-    padding-bottom: 50px !important; }
-  .logos-redes {
-    position: relative;
-    left: 30px; }
-  .logos-redes {
-    position: relative; }
-    .logos-redes .containerPagos {
-      padding-bottom: 50px !important; }
-    .logos-redes .container-cuota {
-      width: 0px !important; } }
-
-@media only screen and (max-width: 992px) and (min-width: 993px) and (max-width: 1280px) {
-  .instagramFeed {
-    width: 100% !important; }
-  span {
-    display: none !important; } }
-
-@media only screen and (max-width: 992px) and (max-width: 1650px) {
-  .containerTiendaInicio {
-    padding-top: 20px;
-    gap: 90px; }
-    .containerTiendaInicio img {
-      width: 240px;
-      height: 340px; }
-    .containerTiendaInicio p {
-      padding-bottom: 20px; } }
-
-@media only screen and (max-width: 992px) and (min-width: 768px) and (max-width: 1200px) {
-  .descuentos {
-    width: auto;
-    height: 499px; }
-  .instagramFeed {
-    display: flex !important;
-    flex-direction: row !important;
-    justify-content: center !important;
-    margin: 0px !important; } }
-
-@media only screen and (max-width: 992px) and (min-width: 300px) and (max-width: 997px) {
-  .containerPersonalizado h1 {
-    padding-top: 50px !important;
-    text-align: center;
-    margin: auto !important; }
-  .containerPersonalizado ul li {
-    position: relative;
-    left: 68px !important;
-    font-size: 20px !important;
-    text-align: center;
-    margin: auto !important; }
-  .containerPersonalizado button {
-    margin-right: auto !important;
-    margin-top: 30px !important; }
-  .logoWhs {
-    display: none !important; }
-  .instagramFeed {
-    display: flex !important;
-    flex-direction: row !important;
-    justify-content: center !important;
-    margin: 0px !important; }
-  .logos-redes-f {
-    display: flex;
-    justify-content: center; } }
-
-@media only screen and (max-width: 992px) and (min-width: 1280px) and (max-width: 1920px) {
-  .personalizado1 img {
-    width: 500px;
-    border-radius: 4px;
-    margin: 0px; } }
-
-@media only screen and (max-width: 992px) and (min-width: 1920px) {
-  .producto img {
-    text-align: center;
-    width: 210px;
-    height: 290px;
-    border-radius: 3px; }
-  .producto img:hover {
-    transform: scale(1.06); } }
 
 /*-------------NOSOTROS--------------*/
 .p-contenedor {
   margin-top: 60px;
+  margin-bottom: 80px;
   text-align: center;
   font-family: "Montserrat", sans-serif; }
+
+.imgParallaxx {
+  background: url("/assets/paralax-nosotros.jpg");
+  background-attachment: fixed;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 630px;
+  width: 100% !important;
+  margin-top: 40px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 70px;
+  filter: contrast(50%);
+  filter: brightness(0.8); }
+  .imgParallaxx h1 {
+    font-family: "Montserrat", sans-serif;
+    color: #ffff;
+    padding: 60px; }
 
 /*-------------PRODUCTOS--------------*/
 .categoria {
@@ -473,19 +527,27 @@ h3 span {
   align-items: left;
   margin: 0px;
   margin-bottom: 50px;
+  padding-top: 40px;
   padding-right: 40px;
-  gap: 20px;
   flex-wrap: wrap; }
+
+.boton2 {
+  font-family: "Montserrat", sans-serif !important;
+  margin: 0px;
+  padding: 0px;
+  background-color: aqua; }
 
 .producto {
   text-align: center;
   color: #808080;
-  padding-bottom: 5px; }
+  padding-bottom: 5px;
+  width: auto;
+  height: auto; }
   .producto img {
     text-align: center;
-    width: 240px;
-    height: 312px;
-    border-radius: 3px; }
+    width: 235px;
+    height: 335px;
+    border-radius: 1.5px; }
   .producto p {
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
@@ -495,6 +557,8 @@ h3 span {
   .producto h6 {
     font-family: "Montserrat", sans-serif;
     font-size: 16px; }
+  .producto button {
+    margin-right: 0px !important; }
 
 .producto img:hover {
   transform: scale(1.06); }
@@ -504,8 +568,7 @@ h3 span {
   justify-content: left;
   text-align: none;
   align-items: none;
-  padding-bottom: 30px;
-  padding-top: 60px;
+  padding-top: 38px;
   padding-left: 190px; }
   .productosGeneral ul {
     display: flex;

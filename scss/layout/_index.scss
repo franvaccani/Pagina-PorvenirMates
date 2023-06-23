@@ -3,8 +3,17 @@
 /*-------------IDEX--------------*/
 body{
     background-color:$colorFondo !important;
-    overflow-x: hidden;
+    overflow-x: hidden; 
 }
+
+.logoWhs img {
+    width:50px !important;
+    position: fixed;
+    top: 85% !important;
+    left: 96%;
+}
+
+
 .carousel-inner {
     height: 770px;
     img {
@@ -25,8 +34,8 @@ body{
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .texto-descuentos {
     font-family: $fuente;
@@ -38,11 +47,15 @@ body{
 .containerTiendaInicio {
     @include flex(center,center,center);
     padding-top: 20px;
-    gap: 50px;
+    gap: 20px;
     img{
-        width: 290px !important;
-        height: 400px !important;
+        width: 280px !important;
+        height: 405px !important;
     }
+}
+.h2-ig{
+    padding-bottom: 10px;
+    font-family: $fuente;
 }
 .h2-pro{
     padding-top: 140px;
@@ -61,7 +74,7 @@ h2 span {
     right:0;
     width:0;
     border-left: 1px solid #000000;
-    animation: escribir 2.4s steps(300) infinite alternate;
+    animation: escribir 2.2s steps(1000) infinite alternate;
 }
 @keyframes escribir {
     from { width: 60% }
@@ -72,7 +85,7 @@ h2 span {
     position: relative; 
 	float: left;
     font-size: 2rem !important;
-    padding-top: 140px;
+    padding-top: 1px;
     font-family: $fuente;
 }
 h3 span {
@@ -87,12 +100,7 @@ h3 span {
     from { width: 62% }
     to { width:37% }
 }
-.line{
-    padding-bottom: 55px;
-}
-.line2{
-    padding-bottom: 100px;
-}
+
 .container-ig {
     margin-bottom: 200px;
     margin-right: 120px;
@@ -100,8 +108,9 @@ h3 span {
 }
 .containerPersonalizado{
     @include flex(center,center,center);
-    margin-top: 400px; 
+    margin-top: 220px; 
     margin-bottom: 220px;
+    margin-right: 220px;
 }
 .personalizado{
     text-align: center;
@@ -110,25 +119,27 @@ h3 span {
     h1{
         font-family: $fuente;
         font-size: 24px;
-        margin-right: 150px;
+        margin-right: 100px;
+    
     }
     ul{
         text-decoration: none; 
         list-style-type: none;
         font-family: $fuente;
         font-size: 15px;
-        margin-right: 190px;
+        margin-right: 150px;
     }
     button{
         font-family: $fuente;
         font-size: 15px;
-        margin-right: 150px !important;
+        margin-right: 100px !important;
+        
     }
 }
 .personalizado1 img{
-    width: 500px;
+    width: 400px;
     height: 600px;
-    margin-left: 150px;
+    margin-left: 340px;
     border-radius: 4px;
 }
 

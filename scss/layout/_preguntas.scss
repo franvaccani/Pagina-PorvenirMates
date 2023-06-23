@@ -1,0 +1,44 @@
+
+
+/*-------------COMO COMPRAR--------------*/
+#como-comprar {
+    color: #7a7878;
+    border-bottom: 1px solid #c0c0c0;
+    padding-bottom: 5px;
+}
+.p-contenedor-comoComprar {
+    text-align: left;
+    font-size: 16px;
+    font-family: $fuente;
+    margin-left: 145px;
+    margin-right: 90px;
+    margin-top: 40px;
+
+    line-height: 24px;
+    p{
+        text-align: left;
+        font-size: 16px;
+        padding-bottom: 34px;
+    }
+}
+.imgParallaxxCompra{
+    background: url("/assets/paralax-compra.jpg");
+    background-attachment: fixed;
+    background-position:right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 630px;
+    width: 100% !important;
+    margin-top: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 70px;
+    filter:contrast(50%);
+    filter:brightness(0.8);
+    h1{
+        font-family: $fuente;
+        color: #fdfdfd;
+        padding: 60px;
+    }
+    
+}
