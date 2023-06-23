@@ -72,19 +72,15 @@
   .img-logo-footer {
     padding: 0px !important;
     padding-top: 20px !important;
-    padding-bottom: 50px !important;
+    padding-bottom: 40px !important;
   }
-  .logos-redes {
-    position: relative;
-    left: 30px;
+  .logos-redes-f {
+    margin-left: 38px;
   }
-  .logos-redes {
-    position: relative;
+  .containerPagos {
+    padding-bottom: 30px !important;
   }
-  .logos-redes .containerPagos {
-    padding-bottom: 50px !important;
-  }
-  .logos-redes .container-cuota {
+  .container-cuota {
     width: 0px !important;
   }
 }
@@ -113,24 +109,35 @@
     justify-content: center !important;
     margin: 0px !important;
   }
-}
-@media only screen and (min-width: 300px) and (max-width: 997px) {
-  .containerPersonalizado h1 {
-    padding-top: 50px !important;
-    text-align: center;
-    margin: auto !important;
+  .descuentos {
+    flex-direction: column !important;
   }
-  .containerPersonalizado ul li {
-    position: relative;
-    left: 68px !important;
-    font-size: 20px !important;
-    text-align: center;
-    margin: auto !important;
+  .carousel-inner {
+    overflow: hidden;
+  }
+}
+@media only screen and (max-width: 1700px) {
+  .containerPersonalizado {
+    flex-direction: column;
+    padding-top: 200px;
+    padding-bottom: 150px;
+    margin: 0px !important;
+  }
+  .containerPersonalizado img {
+    margin: 0px !important;
+    padding-bottom: 10px;
+  }
+  .containerPersonalizado h1 {
+    margin: 0px !important;
   }
   .containerPersonalizado button {
-    margin-right: auto !important;
-    margin-top: 30px !important;
+    margin: 0px !important;
   }
+  .containerPersonalizado li {
+    margin-left: 100px !important;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 997px) {
   .logoWhs {
     display: none !important;
   }
@@ -143,6 +150,17 @@
   .logos-redes-f {
     display: flex;
     justify-content: center;
+  }
+  .productosGeneral {
+    padding-left: 10px !important;
+  }
+  .imgParallaxxCompra {
+    width: 400px !important;
+    height: 300px !important;
+  }
+  .p-contenedor-comoComprar {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
   }
 }
 @media only screen and (min-width: 1400px) and (max-width: 1920px) {
@@ -420,10 +438,6 @@ body {
 }
 
 .descuentos {
-  box-sizing: content-box;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -546,7 +560,7 @@ h3 span {
 .personalizado button {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
-  margin-right: 100px !important;
+  margin-right: 100px;
 }
 
 .personalizado1 img {
