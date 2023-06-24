@@ -11,7 +11,7 @@
     margin-bottom: 5px; }
   .contenedor-lista {
     display: flex;
-    justify-content: left;
+    justify-content: left !important;
     background-color: #1c1c1c; }
   .nav-lista {
     flex-wrap: wrap;
@@ -106,7 +106,7 @@
     .containerPersonalizado h1 {
       margin: 0px !important; }
     .containerPersonalizado button {
-      margin: 0px !important; }
+      margin-left: 120px !important; }
     .containerPersonalizado li {
       margin-left: 100px !important; } }
 
@@ -130,7 +130,20 @@
     margin-left: 10px !important;
     margin-right: 10px !important; }
   .tres-cuotas {
-    font-size: 11px !important; } }
+    font-size: 11px !important; }
+  #mensaje {
+    height: 50px !important;
+    margin: 0; }
+  .formulario {
+    width: 70% !important; }
+  .google {
+    display: flex;
+    padding-top: 20px;
+    justify-content: center !important;
+    width: 340px !important; }
+  .containerPersonalizado li {
+    width: auto;
+    height: auto; } }
 
 @media only screen and (min-width: 1400px) and (max-width: 1920px) {
   .containerTiendaInicio img {
@@ -155,7 +168,9 @@
   .carousel-inner img {
     width: 150% !important;
     height: 60% !important;
-    background-size: cover; } }
+    background-size: cover; }
+  .containerTienda {
+    flex-wrap: nowrap !important; } }
 
 /*-------------COMO COMPRAR--------------*/
 #como-comprar {
@@ -293,7 +308,7 @@ footer {
 .navbar {
   display: flex;
   list-style-type: none;
-  justify-content: flex-end !important;
+  justify-content: right !important;
   margin-top: 0;
   margin-bottom: 0;
   margin-right: 15px;
@@ -474,7 +489,7 @@ h3 span {
   .personalizado button {
     font-family: "Montserrat", sans-serif;
     font-size: 15px;
-    margin-right: 100px; }
+    margin-right: 110px !important; }
 
 .personalizado1 img {
   width: 400px;
