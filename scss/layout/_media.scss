@@ -26,7 +26,7 @@
         }
     }
     .img-logo img {
-        width: 140px;
+        width: 140px !important;
         height: auto;
         padding-bottom: 36px;
     }
@@ -102,19 +102,24 @@
     .descuentos{
         width: auto;
         height: 499px;
-}
-.instagramFeed {
+    }
+    .instagramFeed {
     display: flex !important;
     flex-direction: row !important;
     justify-content: center !important;
-    margin: 0px !important;
-}
-.descuentos{
+    margin: 0px;
+    }
+    .descuentos{
     flex-direction: column !important;
-}
-.carousel-inner{
-    overflow: hidden;
-}
+    height: auto !important;
+    padding-left: 0px !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+    .container-cuotas{
+        width: 100%;
+    }
+    
 }
 
 @media only screen and (max-width:1700px){
@@ -157,7 +162,6 @@
     }
     .productosGeneral{
         padding-left: 10px !important;
-        
     }
     .imgParallaxxCompra{
         width: 400px !important;
@@ -166,6 +170,9 @@
     .p-contenedor-comoComprar{
         margin-left: 10px !important;
         margin-right: 10px !important;
+    }
+    .tres-cuotas{
+        font-size: 11px !important;
     }
 }
 @media only screen and  (min-width:1400px) and (max-width:1920px){
@@ -187,4 +194,13 @@
         to { width:30% }
     } 
 }
+}
+@media only screen and (max-width:1600px){
+    .carousel-inner{
+        img {
+            width: 150% !important;
+            height: 60% !important;
+            background-size: cover;
+        }
+    }
 }

@@ -27,7 +27,7 @@
       color: white;
       font-family: "Montserrat", sans-serif; }
   .img-logo img {
-    width: 140px;
+    width: 140px !important;
     height: auto;
     padding-bottom: 36px; }
   .boton button {
@@ -84,11 +84,15 @@
     display: flex !important;
     flex-direction: row !important;
     justify-content: center !important;
-    margin: 0px !important; }
+    margin: 0px; }
   .descuentos {
-    flex-direction: column !important; }
-  .carousel-inner {
-    overflow: hidden; } }
+    flex-direction: column !important;
+    height: auto !important;
+    padding-left: 0px !important;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  .container-cuotas {
+    width: 100%; } }
 
 @media only screen and (max-width: 1700px) {
   .containerPersonalizado {
@@ -124,7 +128,9 @@
     height: 300px !important; }
   .p-contenedor-comoComprar {
     margin-left: 10px !important;
-    margin-right: 10px !important; } }
+    margin-right: 10px !important; }
+  .tres-cuotas {
+    font-size: 11px !important; } }
 
 @media only screen and (min-width: 1400px) and (max-width: 1920px) {
   .containerTiendaInicio img {
@@ -144,6 +150,12 @@
       width: 70%; }
     to {
       width: 30%; } } }
+
+@media only screen and (max-width: 1600px) {
+  .carousel-inner img {
+    width: 150% !important;
+    height: 60% !important;
+    background-size: cover; } }
 
 /*-------------COMO COMPRAR--------------*/
 #como-comprar {
@@ -347,9 +359,8 @@ body {
   height: 770px; }
   .carousel-inner img {
     width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: 50% 100% !important; }
+    height: 60%;
+    background-size: cover; }
 
 .uk-grid {
   display: flex;
