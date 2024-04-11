@@ -144,6 +144,12 @@
   .containerPersonalizado li {
     width: auto;
     height: auto; } }
+.container-logo{
+  padding-left: 50px !important;
+}
+.navRespon{
+  background-color: white !important;
+}
 
 @media only screen and (min-width: 1400px) and (max-width: 1920px) {
   .containerTiendaInicio img {
@@ -361,14 +367,14 @@ footer {
 
 /*-------------IDEX--------------*/
 body {
-  background-color: #edefeb !important;
+  background-color: white !important;
   overflow-x: hidden; }
 
 .logoWhs img {
   width: 50px !important;
   position: fixed;
   top: 85% !important;
-  left: 96%; }
+  left: 92%; }
 
 .carousel-inner {
   height: 770px; }
