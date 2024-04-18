@@ -65,7 +65,6 @@
   }
   .productosDestacados {
     display: none !important;
-    
   }
   .igSpan {
     display: none !important;
@@ -355,9 +354,7 @@
   position: relative;
   right: 60px;
 }
-.productosDestacados{
-  background-color: white;
-}
+
 footer {
   background-color: #1c1c1c;
   padding: 0px;

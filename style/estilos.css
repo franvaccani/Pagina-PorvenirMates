@@ -229,6 +229,9 @@
   .container-logo {
     margin-left: 0px !important;
   }
+  .carousel-inner {
+    height: 300px !important;
+  }
 }
 
 
@@ -567,8 +570,8 @@ body {
 }
 
 .containerTiendaInicio img {
-  width: 280px !important;
-  height: 405px !important;
+  width: 290px !important;
+  height: 380px !important;
 }
 
 .h2-ig {
