@@ -232,6 +232,36 @@
   .carousel-inner {
     height: 300px !important;
   }
+  .personalizado1 img {
+    width: 300px !important;
+    height: 500px !important;
+    margin-left: 340px;
+    border-radius: 4px;
+}
+.personalizado{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+}
+.personalizado li{
+  width: 150px !important;
+  margin: 0px !important;
+  padding-top: 6px;
+  
+}
+.personalizado ul{
+  margin: 0px !important;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 10px !important;
+  padding: 0px !important;
+}
+.asd{
+  width: 240px !important;
+}
 }
 
 
