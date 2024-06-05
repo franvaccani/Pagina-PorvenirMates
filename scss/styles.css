@@ -447,6 +447,21 @@ body {
   overflow-x: hidden;
 }
 
+.img-logo img {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 .logoWhs img {
   width: 50px !important;
   position: fixed;

@@ -458,8 +458,10 @@ footer {
 }
 
 /*-------------HEADER--------------*/
-.p-cuotas {
+.cuotas{
   background-color: #1c1c1c;
+}
+.p-cuotas {
   color: white;
   margin: 0;
   text-align: center;
@@ -470,6 +472,32 @@ footer {
   margin-bottom: 8px;
 }
 
+
+.p-cuotas {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: -0000200%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+.img-logo img {
+  animation-duration: 3s;
+  animation-name: logo;
+}
+@keyframes logo {
+  from {
+    margin-left: -200%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
 .navbar {
   display: flex;
   list-style-type: none;
